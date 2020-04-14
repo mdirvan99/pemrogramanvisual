@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Program Luas Kerucut</title>
+<script language="javascript">
+        function lkerucut(){
+                 r=eval(document.luas.jari.value);
+                 t=eval(document.luas.tinggi.value);
+                 alert("Luas Kerucut adalah " + " = " + 3.14*r*(r+r*r+t*t));
+        }
+</script>
+</head>
+<body> 
+        <h3> Luas Kerucut </h3>
+        <form  name="luas" method="post">
+              Jari-jari : <input type="inputbox" placeholder="Jumlah Jari-jari" name="jari"><br>
+              Tinggi : <input type="inputbox" placeholder="Jumlah Tinggi" name="tinggi"><p>
+              <input type="button" value="Hitung" onClick="lkerucut();">
+        </form>
+</body>
+</html>

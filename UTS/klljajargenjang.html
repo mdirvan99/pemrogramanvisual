@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Program Keliling Jajar Genjang</title>
+<script language="javascript">
+        function klljajargenjang(){
+                 a=eval(document.kll.alas.value);
+                 t=eval(document.kll.tinggi.value);
+                 alert("Keliling Jajar Genjang " + " = " + 2*(a+t));
+        }
+</script>
+</head>
+<body> 
+        <h3> Keliling Jajar Genjang </h3>
+        <form  name="kll" method="post">
+              Alas:<input type="inputbox" placeholder="Jumlah Alas" name="alas"><br>
+              Tinggi:<input type="inputbox" placeholder="Jumlah Tinggi" name="tinggi"><p>
+              <input type="button" value="Hitung" onclick="klljajargenjang();">
+        </form>
+</body>
+</html>

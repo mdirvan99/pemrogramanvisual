@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Program Luas Prisma Segitiga</title>
+<script language="javascript">
+        function lps(){
+                 a=eval(document.luas.alas.value);
+                 t=eval(document.luas.tinggi.value);
+                 tp=eval(document.luas.tinggip.value);
+                 alert("Hasil dari Luas Prisma Segitiga adalah " + " = " + ((2*(0.5*a*t)) + (3*(tp*a))));
+        }
+</script>
+</head>
+<body> 
+        <h3> Luas Prisma Segitiga </h3>
+        <form  name="luas" method="post">
+
+              Alas : <input type="inputbox" placeholder="Jumlah Alas" name="alas"><br>
+              Tinggi : <input type="inputbox" placeholder="Tinggi" name="tinggi"><br>
+              Tinggi Prisma : <input type="inputbox" placeholder="Tinggi Prisma" name="tinggip"><p>
+              <input type="button" value="Hitung" onClick="lps();">
+        </form>
+</body>
+</html>
